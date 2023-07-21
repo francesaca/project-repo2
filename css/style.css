@@ -1,0 +1,229 @@
+ 
+*{
+box-sizing: border-box;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+header,section{
+    overflow-x: hidden;
+}
+header a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    color: whitesmoke;
+    
+}
+header{
+    background-image: linear-gradient(burlywood, black);
+   
+}
+.dropdown-content{
+    display: none;
+    position:absolute;
+    background:blanchedalmond;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background: wheat;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.nav-item:last-child{
+    padding-right: 10.5em;
+}
+.nav-item{
+padding: 0.9em;
+}
+.navbar-brand{
+    padding-left: 8rem;
+}
+.nav-link:hover{
+    color: black;
+}
+.row.col-md-5{
+    padding: 42vmin 1vmin;
+}
+.row.col-md-7{
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+}
+header .container.col-md-7 p{
+padding: 1vmin 5vmin;
+}
+/*SECTION1*/
+.section-1{
+    padding: 20vmin 0vmin;
+}
+.pray img{
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+
+.panel{
+    position: absolute;
+    top:7vmin;
+    left:-18vmin;
+    background: antiquewhite;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0.9, 0.9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+}
+.panel h1{
+    font-weight: bolder;
+    font-size:2em; 
+    padding:0.4em 0em;
+}
+.panel p{
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.7);
+}
+/*SECTION2*/
+.cover{
+    width: 100%;
+    height: 55vmin;
+    background: url(../assets/pexels-photo-452738.jpeg);
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+.content1{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+.content1 h1{
+    font-size: 6vmin;
+    color: antiquewhite;
+}
+.content1 p{
+    font-size: 2vmin;
+    color:blanchedalmond;
+}
+.rect{
+    position: relative;
+    z-index: 1;
+    background: seashell;
+    width: 15rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+}
+.numbers{
+    margin-top: -15vmin;
+}
+.rect h1{
+    color: brown;
+    font-size: 5rem;
+}
+.rect p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.purchase>h1{
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+}
+.purchase>p{
+    font-size: 3vmin;
+    color:rgb(122, 80, 17);
+    padding-bottom: 10vmin;
+}
+.card{
+    width: 22rem;
+    margin:3vmin;
+}
+.card-title{
+    background: rgba(208, 241, 241, 0.199);
+    padding: 1.4rem 2.5rem;
+    font-size: 4vmin;
+}
+.card-text{
+    padding: 2.5rem 3rem;
+    color: rgb(122, 80, 17);
+
+}
+.pricing{
+    background: rgba(208, 241, 241, 0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius:170px ;
+}
+.pricing>h1{
+    font-size: 5vmin;
+    padding: 1em 0.5em ;
+}
+/*SECTION3*/
+.section-3{
+    height: 70vmin;
+    margin-top: 15vmin;
+     background-image: linear-gradient(burlywood, black);
+}
+.col-md-12>h1{
+    padding: 2em 0 0.5em 0;
+    color: rgb(122, 80, 17);
+    font-size: 6vmin;
+}
+.col-md-12>p{
+    padding: 0 4em;
+    padding-bottom: 2em;
+    color:antiquewhite ;
+    font-size: 3vmin;
+}
+.desktop{
+    background: seashell;
+    display:inline-block;
+    border-radius: 3em;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+}
+.desktop h3{
+    font-size: 4vmin;
+}
+.desktop p{
+    font-size: 2vmin;
+}
+/*SECTION 4*/
+.section-4 h1{
+font-size: 6vmin;
+padding-top: 14vmin;
+}
+.team{
+    padding: 10vmin 4vmin;
+}
+.card{
+    width: 22rem;
+    margin-top: 10vmin;
+}
+.card-text{
+    padding: 0.5em;
+}
+.carousel-item{
+    padding-left: 3rem;
+}
+.border-radius{
+    border-radius: 300px;
+    width: 50%;
+}
+/*FOOTER*/
+.containerf-fluid{
+    background-color:rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+.icons i{
+color: bisque;
+}
